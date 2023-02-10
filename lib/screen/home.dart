@@ -15,11 +15,12 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String projectUrl = 'https://github.com/ethicnology/dispute';
+    String projectUrl = 'RemotAI';
     final profil = context.watch<Profile>();
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
-        title: const Text('nostr dispute'),
+        title: const Text('nostr Test RemotAI'),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -31,7 +32,7 @@ class HomeScreen extends StatelessWidget {
               padding:
                   EdgeInsets.only(top: 20, bottom: 25, left: 10, right: 10),
               child: SelectableText(
-                'A dispute is a disagreement or argument about something. It can refer to a disagreement between individuals or groups, or it can refer to a disagreement about a specific issue or topic.',
+                'A Demo Test Nostr By RemotAI',
                 textAlign: TextAlign.justify,
               ),
             ),

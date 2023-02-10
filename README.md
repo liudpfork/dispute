@@ -1,41 +1,14 @@
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
-# dispute
+项目目的：
+评估Damus
 
-A cross-platform client for Nostr showcasing [dart-nostr library](https://github.com/ethicnology/dart-nostr)
+背景：
+Damus是基于 Nostr 协议的一个iOS平台客户端 。
+
+一期目的：
+主要测试 nostr协议在各个环境下的连通情况，目前测试三个平台： web端，ios端，android端。
 
 
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/dispute)
+二期目的：
+补充IM的UI展示，增加Lightning协议的打赏相关功能。
 
-## Disclaimer
-This app is in early development.  
-Distributing an application is a cumbersome process where you have to fill out forms and wait a long time and sometimes pay (Apple, Microsoft and Google…).  
-Focusing on development, I will probably (when i will have some free time) release the app on Playstore (Android) and Snap store (Linux).  
-I'm not a front-end dev that's why the design sucks.  
-
-## Getting Started
-This app can be build on many platform, please follow the guide:
-- [Linux](https://docs.flutter.dev/deployment/linux)
-- [Android](https://docs.flutter.dev/deployment/android)
-- [Web](https://docs.flutter.dev/deployment/web)
-- [iOS](https://docs.flutter.dev/deployment/ios)
-- [macOS](https://docs.flutter.dev/deployment/macos)
-- [Windows](https://docs.flutter.dev/deployment/windows)
-
-## Run
-Clone the repository and inside the repository you can use:
-```sh
-flutter pub get
-flutter run 
-```
-
-## Support my work
-```sh
-bitcoin: bc1qyhzq7twqz087ledn4zpz0xhxx23t5aa8s395nn
-paypal:  ethicnology@pm.me
-```
-I'm also working on [dart-nostr](https://github.com/ethicnology/dart-nostr) and many others projects
-
-## Screenshots
-![1.1.0_wall](https://github.com/ethicnology/dispute/blob/main/assets/1.1.0_wall.png)
-![1.1.0_event](https://github.com/ethicnology/dispute/blob/main/assets/1.1.0_event.png)
-![1.1.0_profile](https://github.com/ethicnology/dispute/blob/main/assets/1.1.0_profile.png)
+ffmpeg -i  a.mov -vcodec libx264 -s 960x540 -preset fast -crf 22 -y -acodec copy remotai-nostr.mp4

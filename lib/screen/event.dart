@@ -12,7 +12,7 @@ import '../constants/constants.dart';
 void sendEvent(Uri relay, Event event) {
   WebSocketChannel channel = WebSocketChannel.connect(relay);
   channel.sink.add(event.serialize());
-  sleep(const Duration(seconds: 1));
+  //sleep(const Duration(seconds: 1));
   channel.stream.listen((response) {
     if (response.isNotEmpty) {
       var json = jsonDecode(response);

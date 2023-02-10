@@ -1,6 +1,6 @@
 {
-    "name": "dispute",
-    "short_name": "dispute",
+    "name": "RemotAI",
+    "short_name": "RemotAI",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#hexcode",
